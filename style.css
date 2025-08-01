@@ -1,19 +1,53 @@
 /*Hoja de estilos CSS*/
 
+body {
+    background-color: #fdfdfd;
+    color: #333333
+}
+
+
 header {
-    background-color: #ffff;
+    background-color: #cccccc;
 }
 
 .el_titulo {
     text-align: center;
     font-family: "Times New Roman";
-    font-size: 8px;
+    font-size: 30px;
 }
 
-.futbol .baloncesto .voleibol .balonmano .tenis {
+.menu_deportes {
+    margin: 0 auto;
+    margin-top: 20px;
     border-radius: 5px;
     padding: 8px 15px;
     text-align: center;
     font-family: "Times New Roman";
-    font-size: 5px;
+    font-size: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
 }
+
+#seleccion_deporte {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Times New Roman";
+}
+
+button {
+    text-align: center;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #ffff
+}
+
+
