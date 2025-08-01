@@ -1,8 +1,8 @@
 /*Hoja de estilos CSS*/
 
 body {
-    background-color: #f9f9f9;
-    color: #0a0a0a;
+    background-color: #892DEB;
+    color: #ffff;
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 main {
-    background-color: #f9f9f9;
+    background-color: #892DEB;
 
 }
 
@@ -26,6 +26,7 @@ main {
     margin: 0;
     padding: 100px 65px;
     margin-bottom: 30px;
+    color: #000000;
 }
 
 .menu_deportes {
@@ -35,6 +36,7 @@ main {
     padding: 8px 15px;
     text-align: center;
     font-family: "Times New Roman";
+    color: #0000;
     font-size: 35px;
     text-align: center;
 
@@ -63,7 +65,7 @@ button:hover {
     background-color: #eaeaea;
 }
 
-#informacion_deportes {
+#informacion_deportes, #informacion_futbol {
     margin-top: 15px;
     margin: 0 auto;
     text-align: center;
@@ -72,43 +74,56 @@ button:hover {
     max-width: 900px;
 }
 
-.que_es_deporte, .implicacion_deporte {
-    background-color: #dcd2c0;
+.que_es_deporte, .implicacion_deporte, .descripcion_futbol, .como_jugar, .beneficios_futbol {
+    background-color: #4953CC;
     border-radius: 15px;
     margin-bottom: 5px;
+    padding: 20px;
 }
 
-.deportes_info {
+.deportes_info, .titulo_infofut {
     font-family: "Times New Roman";
-    font-size: 20px;
+    font-size: 35px;
 }
 
-.subdeportes_info {
+.subdeportes_info, .historia_futbol {
     font-family: "Times New Roman";
-    font-size: 15px;
-    color: #555555;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 
 h3 {
-    color: #555555;
+    color: #FFFFFF;
     font-family: "Times New Roman";
 }
 
 h4 {
-    color: #555555;
+    color: #FFFFFF;
     font-family: "Times New Roman";
 }
 
 p {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 15px;
     text-align: center;
+    font-size: 20px;
 }
 
-.imagen_generald, .deporte_colectivo {
+.imagen_generald, .deporte_colectivo, .imagen_futbol, .imagen_posiciones, .imagen_beneficiosf {
     margin-top: 15px;
     margin-bottom: 15px;
     justify-content: center;
-    width: 100px !important;
-    height: 50px !important;
+    width: 400px !important;
+    height: 250px !important;
+    font-size: 25px;
+
 }
+
+.descripcion_futbol {
+    background-color: #4953CC;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+
