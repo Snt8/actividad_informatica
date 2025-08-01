@@ -1,19 +1,31 @@
 /*Hoja de estilos CSS*/
 
 body {
-    background-color: #fdfdfd;
-    color: #333333
+    background-color: #f9f9f9;
+    color: #0a0a0a;
+    margin: 0;
+    padding: 0;
 }
 
 
 header {
-    background-color: #cccccc;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+main {
+    background-color: #f9f9f9;
+
 }
 
 .el_titulo {
     text-align: center;
     font-family: "Times New Roman";
-    font-size: 30px;
+    font-size: 50px;
+    margin: 0;
+    padding: 100px, 65px;
+    margin-bottom: 30px;
 }
 
 .menu_deportes {
@@ -23,7 +35,7 @@ header {
     padding: 8px 15px;
     text-align: center;
     font-family: "Times New Roman";
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
 
     display: flex;
@@ -44,10 +56,44 @@ button {
     padding: 8px 15px;
     cursor: pointer;
     font-size: 15px;
+    background-color: #ffffff;
 }
 
 button:hover {
-    background-color: #ffff
+    background-color: #eaeaea;
 }
 
+#informacion_deportes {
+    margin-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 60px;
+    border-radius: 15px;
+    max-width: 900px;
+}
 
+.que_es_deporte .implicacion_deporte {
+    background-color: #dcd2c0;
+    border-radius: 15px;
+}
+
+.deportes_info {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+.subdeportes_info {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    color: #555555;
+}
+
+h3 {
+    color: #555555;
+    font-family: "Times New Roman";
+}
+
+h4 {
+    color: #555555;
+    font-family: "Times New Roman";
+}
