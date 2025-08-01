@@ -24,7 +24,7 @@ main {
     font-family: "Times New Roman";
     font-size: 50px;
     margin: 0;
-    padding: 100px, 65px;
+    padding: 100px 65px;
     margin-bottom: 30px;
 }
 
@@ -72,9 +72,10 @@ button:hover {
     max-width: 900px;
 }
 
-.que_es_deporte .implicacion_deporte {
+.que_es_deporte, .implicacion_deporte {
     background-color: #dcd2c0;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .deportes_info {
@@ -96,4 +97,18 @@ h3 {
 h4 {
     color: #555555;
     font-family: "Times New Roman";
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imagen_generald, .deporte_colectivo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    width: 100px !important;
+    height: 50px !important;
 }
