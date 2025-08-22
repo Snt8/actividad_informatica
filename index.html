@@ -7,10 +7,11 @@
 </head>
 <body>
     <header>
-            <h1 class = "el_titulo">
-                Cultura y Deporte
-            </h1>
-        </header>
+        <img class = "imagen_logo" src = assets/logo_pagina.jpg>
+        <h1 class = "el_titulo">
+            Cultura y Deporte
+        </h1>
+    </header>
     <main>
         <section> <!-- Menu de seleccion de páginas web que tiene el sitio-->
             <details class = "menu">
@@ -28,10 +29,10 @@
             <h1 class = "deportes_info"> Los Deportes</h1>
             <h2 class = "subdeportes_info"> Su practica e Importancia</h2>
             <section class = "que_es_deporte">
-                <p> El deporte es mucho más que un simple juego o una actividad física. 
-                    Es un fenómeno social y cultural que ha existido a lo largo de la historia de la humanidad, evolucionando con las sociedades. 
-                    En su esencia, el deporte es una actividad reglamentada, a menudo competitiva, que implica destreza, esfuerzo físico o estrategia mental. 
-                    Va más allá del entretenimiento, convirtiéndose en un reflejo de valores como la disciplina, el trabajo en equipo, la perseverancia y el respeto. </p>
+                <p> El deporte es una actividad reglamentada y competitiva que combina esfuerzo físico o estrategia mental. 
+                    Más allá del entretenimiento, refleja valores como disciplina, trabajo en equipo, perseverancia y respeto. 
+                </p>
+
             
                     <img class = "imagen_generald" src = "https://a.files.bbci.co.uk/worldservice/live/assets/images/2015/12/28/151228155657_personalidad_deporte_304x171_thinkstock_nocredit.jpg">
 
@@ -40,11 +41,11 @@
             <section class = "implicacion_deporte">
             <h3> La practica Deportiva: sus implicaciones y beneficios</h3>
 
-            <p> La práctica deportiva tiene un impacto profundo tanto a nivel individual como colectivo. 
-                A nivel individual, los beneficios son amplios y se manifiestan en diferentes áreas:
-                    - Salud física: La práctica regular ayuda a mantener un peso saludable, fortalece el sistema cardiovascular, mejora la resistencia y la flexibilidad, y previene diversas enfermedades.
-                    - Salud mental: Es una excelente herramienta para reducir el estrés, la ansiedad y la depresión. El ejercicio libera endorfinas, lo que genera una sensación de bienestar. Además, mejora la autoestima y la confianza.
-                    - Desarrollo de habilidades: El deporte fomenta el desarrollo de habilidades motoras, de coordinación y estratégicas. También enseña a los individuos a gestionar el fracaso y la victoria, a trabajar bajo presión y a tomar decisiones rápidas. </p>
+            <p> La práctica deportiva aporta beneficios a nivel individual en tres áreas principales: 
+                - Salud física: mantiene el cuerpo en forma, fortalece el sistema cardiovascular y previene enfermedades. 
+                - Salud mental: reduce el estrés, mejora el bienestar y la autoestima. 
+                - Habilidades: desarrolla coordinación, estrategia y capacidad de tomar decisiones bajo presión. 
+            </p>
             
             <img class = "deporte_colectivo" src = "https://www.buscatuclase.com/ar/blog/wp-content/uploads/2017/01/Ventajas-del-Deporte-en-Equipo.jpg">
 
@@ -53,6 +54,23 @@
                     - Comunidad y pertenencia: Los deportes, ya sean practicados de forma individual o en equipo, crean un sentido de comunidad. Los equipos y los aficionados comparten una identidad y un propósito, lo que fortalece los lazos sociales.</p>
             </section>    
 
+
+            <section class = "formulario">
+                <form action = "mailto:sistematicos2010itc@gmail.com" method = "post" enctype = "text/plain"> <!--Action: define a donde se enviaran los datos.
+                Usamos como argumento una direccion de correo electronico.  method: Define como viajan los datos, si por la barra de URL o por debajo, sin ser perceptibles
+                enctype: Da formato a los datos que se envian, con text/plain indicamos que queremos el texto limpio para el cuerpo del correo-->
+                    <label for = "sugerencia"> Sugerencia: </label>
+                    <input id = "sugerencia" name = "sugerencia" type = "text" placeholder = "Dejanos tu recomendacion ..." required/> <!--al nombrar el elemento como sugerencia
+                    permitimos que se conecte con label, asi el elemento se desplegará correctamente-->
+                    <button type = "submit">Enviar</button>
+
+
+                </form>
+
+            </section>
+
+            
+
         </section>
     </main>
 
@@ -60,3 +78,4 @@
 
 </body>
 </html>
+
