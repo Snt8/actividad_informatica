@@ -1,12 +1,22 @@
 /*Hoja de estilos CSS*/
 
+:root {
+    --color-body: #9a99e1;
+    --color-main: #9a99e1;
+    --color-header: #008bd0;
+    --color-info: #dcbddf;
+    --color-texto: #f5edf0;
+
+}
+
+
 * {
-    color: #9C93E5;
+    color: var(--color-texto);
 }
 
 
 body {
-    background-color: #9a99e1;
+    background-color: var(--color-body);
     margin: 0;
     padding: 0;
 }
@@ -14,13 +24,13 @@ body {
 
 header {
     position: relative;
-    background-color: #008bd0;
+    background-color: var(--color-header);
     border-radius: 15px;
     justify-content: center;
 }
 
 main {
-    background-color: #9a99e1; /*Color principal de la pagina web */
+    background-color: var(--color-main); /*Color principal de la pagina web */
 }
 
 .el_titulo {
@@ -72,7 +82,7 @@ button:hover {
     /* Estilos para las secciones de la informacion, secciones criticas del contenido de la web
     */
 
-    background-color: #dcbddf;
+    background-color: var(--color-info);
     margin-top: 15px;
     margin: 0 auto;
     text-align: center;
@@ -155,4 +165,22 @@ p {
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.cambio-color  {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #60606f;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.traduccion {
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    background-color: #60606f;
+    padding: 15px;
+    margin-left: 600px;
 }

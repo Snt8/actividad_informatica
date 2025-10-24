@@ -8,16 +8,17 @@
     <link rel = "icon" type = "image/png" href = "assets/logo_pagina.png">
     <title> Cultura y Deporte (main) </title>
 </head>
-<body>
+<body id = "cuerpo">
     <header>
         <img class = "imagen_logo" src = assets/logo_pagina.png>
         <h1 class = "el_titulo">
             Cultura y Deporte
         </h1>
     </header>
-    <main>
+    <buttom id = "cambiar-color" class = "cambio-color">Cambiar Paleta</buttom>
+    <buttom id = "traducir" class = "traduccion">Es - En</buttom>
+    <main id = "principal">
         <section class = "cambio-paleta">
-            <script href = "cambio_color.js">
             </script>
 
         </section>
@@ -92,9 +93,13 @@
 
             </section>
 
-            
 
+
+        
         </section>
+
+        <script src = "cambio_color.js"></script>
+        <script src = "traduccion.js"></script>
     </main>
 
 
