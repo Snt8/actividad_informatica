@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang = "es">
 <head>   
     <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" type = "image/png" href = "assets/logo_pagina.png">
     <title> Cultura y Deporte (main) </title>
 </head>
 <body>
     <header>
-        <img class = "imagen_logo" src = assets/logo_pagina.jpg>
+        <img class = "imagen_logo" src = assets/logo_pagina.png>
         <h1 class = "el_titulo">
             Cultura y Deporte
         </h1>
     </header>
     <main>
+        <section class = "cambio-paleta">
+            <script href = "cambio_color.js">
+            </script>
+
+        </section>
         <section class = "audio">
             <audio controls>
                 <source src = "assets/cancion_web.ogg">
@@ -30,35 +38,45 @@
                     </div>
             </details>
         </section>
-        <section id = "informacion_deportes"> <!-- Seccion de Informacion sobre el deporte e importancia -->
-            <h1 class = "deportes_info"> Los Deportes</h1>
-            <h2 class = "subdeportes_info"> Su practica e Importancia</h2>
-            <section class = "que_es_deporte">
-                <p> El deporte es una actividad reglamentada y competitiva que combina esfuerzo físico o estrategia mental. 
-                    Más allá del entretenimiento, refleja valores como disciplina, trabajo en equipo, perseverancia y respeto. 
+        <section id="informacion_deportes">
+      
+            <h1 class="deportes_info">Los Deportes</h1>
+            <h2 class="subdeportes_info">Su práctica e importancia</h2>
+
+            <!-- Qué es el deporte -->
+            <section class="que_es_deporte">
+                <p>
+                    El deporte es una actividad reglamentada que combina esfuerzo físico y estrategia. 
+                    Más allá del entretenimiento, enseña disciplina, trabajo en equipo, perseverancia y respeto.
                 </p>
 
-            
-                    <img class = "imagen_generald" src = "https://a.files.bbci.co.uk/worldservice/live/assets/images/2015/12/28/151228155657_personalidad_deporte_304x171_thinkstock_nocredit.jpg">
-
+                <img 
+                    class="imagen_generald"
+                    src="https://a.files.bbci.co.uk/worldservice/live/assets/images/2015/12/28/151228155657_personalidad_deporte_304x171_thinkstock_nocredit.jpg"
+                    alt="Personas practicando deporte"
+                    >
             </section>
 
-            <section class = "implicacion_deporte">
-            <h3> La practica Deportiva: sus implicaciones y beneficios</h3>
+            <!-- Beneficios e implicaciones -->
+            <section class="implicacion_deporte">
+                <h3>Beneficios e implicaciones</h3>
+                <p>
+                    Practicar deporte mejora la salud física, fortalece el corazón, reduce el estrés y eleva la autoestima. 
+                    Además, fomenta la coordinación, la estrategia y la toma de decisiones rápidas.
+                </p>
 
-            <p> La práctica deportiva aporta beneficios a nivel individual en tres áreas principales: 
-                - Salud física: mantiene el cuerpo en forma, fortalece el sistema cardiovascular y previene enfermedades. 
-                - Salud mental: reduce el estrés, mejora el bienestar y la autoestima. 
-                - Habilidades: desarrolla coordinación, estrategia y capacidad de tomar decisiones bajo presión. 
-            </p>
-            
-            <img class = "deporte_colectivo" src = "https://www.buscatuclase.com/ar/blog/wp-content/uploads/2017/01/Ventajas-del-Deporte-en-Equipo.jpg">
+                <img 
+                    class="deporte_colectivo"
+                    src="https://www.buscatuclase.com/ar/blog/wp-content/uploads/2017/01/Ventajas-del-Deporte-en-Equipo.jpg"
+                    alt="Equipo deportivo celebrando"
+                >
 
-            <h4>A nivel colectivo, la práctica deportiva tiene implicaciones significativas: </h4>
-                <p> - Valores sociales: Enseña la importancia del juego limpio, el respeto por las reglas y los oponentes, y la colaboración para alcanzar un objetivo común.
-                    - Comunidad y pertenencia: Los deportes, ya sean practicados de forma individual o en equipo, crean un sentido de comunidad. Los equipos y los aficionados comparten una identidad y un propósito, lo que fortalece los lazos sociales.</p>
-            </section>    
-
+                <h4>Impacto colectivo</h4>
+                <p>
+                    Los deportes promueven valores como el juego limpio, el respeto y la cooperación. 
+                    También fortalecen la identidad, la comunidad y el sentido de pertenencia.
+                </p>
+            </section>
 
             <section class = "formulario">
                 <form action = "mailto:sistematicos2010itc@gmail.com" method = "post" enctype = "text/plain"> <!--Action: define a donde se enviaran los datos.

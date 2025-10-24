@@ -1,8 +1,12 @@
 /*Hoja de estilos CSS*/
 
+* {
+    color: #9C93E5;
+}
+
+
 body {
-    background-color: #892DEB;
-    color: #ffff;
+    background-color: #9a99e1;
     margin: 0;
     padding: 0;
 }
@@ -10,14 +14,13 @@ body {
 
 header {
     position: relative;
-    background-color: #f5f5dc;
+    background-color: #008bd0;
     border-radius: 15px;
     justify-content: center;
 }
 
 main {
-    background-color: #892DEB;
-
+    background-color: #9a99e1; /*Color principal de la pagina web */
 }
 
 .el_titulo {
@@ -27,7 +30,6 @@ main {
     margin: 0;
     padding: 100px 65px;
     margin-bottom: 30px;
-    color: #000000;
 }
 
 .menu_deportes {
@@ -67,6 +69,10 @@ button:hover {
 }
 
 #informacion_deportes, #informacion_futbol {
+    /* Estilos para las secciones de la informacion, secciones criticas del contenido de la web
+    */
+
+    background-color: #dcbddf;
     margin-top: 15px;
     margin: 0 auto;
     text-align: center;
@@ -76,7 +82,6 @@ button:hover {
 }
 
 .que_es_deporte, .implicacion_deporte, .descripcion_futbol, .como_jugar, .beneficios_futbol {
-    background-color: #4953CC;
     border-radius: 15px;
     margin-bottom: 5px;
     padding: 20px;
@@ -140,5 +145,14 @@ p {
     max-height: 120px;
     margin-left: 30px;
     bottom: 0;
+    text-align: left;
     
+}
+
+.audio {
+    text-align: center;
+    font-family: "Times New Roman";
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
