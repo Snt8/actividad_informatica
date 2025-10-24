@@ -1,8 +1,22 @@
 /*Hoja de estilos CSS*/
 
+:root {
+    --color-body: #9a99e1;
+    --color-main: #9a99e1;
+    --color-header: #008bd0;
+    --color-info: #dcbddf;
+    --color-texto: #f5edf0;
+
+}
+
+
+* {
+    color: var(--color-texto);
+}
+
+
 body {
-    background-color: #892DEB;
-    color: #ffff;
+    background-color: var(--color-body);
     margin: 0;
     padding: 0;
 }
@@ -10,14 +24,13 @@ body {
 
 header {
     position: relative;
-    background-color: #f5f5dc;
+    background-color: var(--color-header);
     border-radius: 15px;
     justify-content: center;
 }
 
 main {
-    background-color: #892DEB;
-
+    background-color: var(--color-main); /*Color principal de la pagina web */
 }
 
 .el_titulo {
@@ -27,7 +40,6 @@ main {
     margin: 0;
     padding: 100px 65px;
     margin-bottom: 30px;
-    color: #000000;
 }
 
 .menu_deportes {
@@ -67,6 +79,10 @@ button:hover {
 }
 
 #informacion_deportes, #informacion_futbol {
+    /* Estilos para las secciones de la informacion, secciones criticas del contenido de la web
+    */
+
+    background-color: var(--color-info);
     margin-top: 15px;
     margin: 0 auto;
     text-align: center;
@@ -76,7 +92,6 @@ button:hover {
 }
 
 .que_es_deporte, .implicacion_deporte, .descripcion_futbol, .como_jugar, .beneficios_futbol {
-    background-color: #4953CC;
     border-radius: 15px;
     margin-bottom: 5px;
     padding: 20px;
@@ -140,5 +155,32 @@ p {
     max-height: 120px;
     margin-left: 30px;
     bottom: 0;
+    text-align: left;
     
+}
+
+.audio {
+    text-align: center;
+    font-family: "Times New Roman";
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cambio-color  {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #60606f;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.traduccion {
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    background-color: #60606f;
+    padding: 15px;
+    margin-left: 600px;
 }
